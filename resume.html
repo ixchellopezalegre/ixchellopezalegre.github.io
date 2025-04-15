@@ -115,10 +115,19 @@
                 flex-direction: column;
             }
         }
+
+        .profile-pic {
+            width: 150px; /* Ajusta el tamaño según sea necesario */
+            height: 150px;
+            border-radius: 50%; /* Hace la imagen circular */
+            object-fit: cover; /* Asegura que la imagen se ajuste bien al contenedor */
+            margin-bottom: 1rem; /* Espaciado debajo de la imagen */
+        }
     </style>
 </head>
 <body>
     <header class="header">
+        <img src="profile.jpg" alt="Foto de perfil de Ixchel López" class="profile-pic">
         <h1>Ixchel López</h1>
         <p><strong>Web Developer | Textile Artist | Interdisciplinary Creator</strong></p>
         <div class="contact">
