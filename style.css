@@ -1,0 +1,17 @@
+body {
+    font-family: 'Courier New', monospace;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f4e8; 
+    color: #333;
+  }
+  
+  h1 {
+    color: #5a7247; 
+    border-bottom: 3px dashed #000;
+  }
+  
+  a {
+    color: #d14e28; 
+  }
